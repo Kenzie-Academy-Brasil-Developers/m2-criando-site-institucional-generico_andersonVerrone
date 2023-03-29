@@ -1,1 +1,34 @@
-/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+@import url(reset.css);
+@import url(variable.css);
+@import url(btn.css);
+@import url(header.css);
+@import url(main-primary.css);
+@import url(main-secondary.css);
+@import url(main-section.css);
+@import url(main-section--secondary.css);
+@import url(modal.css);
+@import url(footer.css);
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    font-weight: var(--weight-secondary);
+    font-family: var(--font);
+    line-height: var(--line-height-text3);
+    background-color: var(--grey-1);
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.active {
+    opacity: 1;
+    pointer-events: all;
+}

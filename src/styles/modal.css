@@ -1,0 +1,76 @@
+.modal {
+    padding: 40px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31px;
+    position: absolute;
+    border: 2px solid #4C6EF5;
+    top: 0;
+    left: 0;
+    transform:translate(-50%,-50%);
+    background-color: #212529;
+    cursor: grab;
+    width: 504px;
+    height: 397px;
+    box-sizing: border-box;
+}
+
+.modal__block {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.modal__title {
+    font-size: var(--size-text-2);
+    font-weight: var(--weight-primary);
+    color: var(--grey-5);
+}
+
+.close {
+    padding: 0 12px;
+    background-color: var(--grey-2);
+    border-radius: 4px;
+    font-size: var(--size-text-2);
+    color: #868E96;
+    font-weight: var(--weight-primary);
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.modal__text {
+    width: 448px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #CED4DA;
+}
+
+.modal__input {
+    width: 448px;
+    height: 68px;
+    box-sizing: border-box;
+    padding: 14px 28px;
+    background-color: #191C1F;
+    font-size: 20px;
+    font-weight: 400;
+    color:  #ADB5BD;
+    border: none;
+    outline: none;
+}
+
+.modal__input:focus {
+    background-color: var(--grey-1);
+}
+
+.modal__input:valid {
+    background-color: #000000;
+}
+
+.modal__btn {
+    width: 448px;
+    height: 60px;
+    cursor: pointer;
+}

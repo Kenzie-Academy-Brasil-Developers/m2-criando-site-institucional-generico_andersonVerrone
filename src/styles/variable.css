@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --grey-0: #191C1F;
+    --grey-1: #212529;
+    --grey-2: #343A40;
+    --grey-3: #ADB5BD;
+    --grey-4: #CED4DA;
+    --grey-5: #F8F9FA;
+    --color-title: #EDF2FF;
+
+    --weight-primary: 600;
+    --weight-secondary: 400;
+
+    --size-h1: 52px;
+    --size-h2: 40px;
+    --size-h3: 32px;
+    --size-h4: 28px;
+    --size-btn: 14px;
+
+    --size-text-1: 28px;
+    --size-text-2: 20px;
+    --size-text-3: 18px;
+
+    --line-height-h1: 72px;
+    --line-height-h2: 64px;
+    --line-height-h3: 44px;
+
+    --line-height-text1: 44px;
+    --line-height-text2: 30px;
+    --line-height-text3: 27px;
+
+    --header-height: 100px;
+    --header-gap: 771px;
+    --header-border: 2px solid var(--brand-1);
+
+    --header-btn-height: 60px;
+    --header-btn-width: 241px;
+    --header-btn-border: 1px solid #EDF2FF;
+
+    --main-block-padding: 400px 236px 250px;
+    --main-block-gap: 44px;
+
+    --main-block-text-width: 770px;
+    --main-block-text-line-height: 150%; 
+
+    --header-btn-txt-size: 14px;
+    --header-btn-txt-line-height: 150%;
+
+    --btn-padding: 0 32px;
+    --btn-border: 1px solid #4C6EF5;
+    --btn-size: 14px;
+
+    --block-span-width: 133px;
+    --block-span-height: 60px;
+    --block-span-line-heigth: 60px;
+
+    --main-block-secondary-gap: 336px;
+    --main-block-secondary-padding: 82px 0;
+    --main-block-secondary-width: 100%;
+    
+    --block--secondary__span-line-height: 30px;
+    --block--secondary__span-width: 611px;
+
+    --main-section-padding: 100px 236px;
+    --main-section-gap: 169px;
+
+    --section__block-gap: 33px;
+
+    --section__block__btn-padding: 19.5px 32px; 
+
+    --section__block--secondary-gap: 60px;
+
+    --section__block--secondary__span-gap: 32px;
+
+    --main__section--secondary-padding: 100px 236px;
+
+    --main__section--secondary-gap: 64px;
+
+    --section--secondary__block-width: 746px;
+    --section--secondary__block-heigth: 840px;
+
+    --section--secondary__block-gap: 100px;
+
+    --list__item-width: 746px;
+    --list__item-height: 135px;
+
+    --item__block__span-width: fit-content;
+    --item__block__span-height: 135px;
+    --item__block__span-gap: 8px;
+
+    --font: 'Inter', sans-serif;
+}

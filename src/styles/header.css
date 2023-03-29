@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    height: var(--header-height);
+    background-color: var(--grey-0);
+    color: var(--grey-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--header-gap);
+    box-sizing: border-box;
+    border-bottom: var(--header-border);
+    position: fixed;
+    z-index: 999;
+}
+
+.header__img {
+    width: 200px;
+    height: 20.8px;
+}
+
+.header__btn {
+    background-color: transparent;
+    text-align: center;
+    color: var(--grey-5);
+    width: var(--header-btn-width);
+    height: var(--header-btn-height);
+    border: var(--header-btn-border);
+    font-size: var(--header-btn-txt-size);
+    font-weight: var(--weight-primary);
+    line-height: var(--header-btn-txt-line-height);
+    box-sizing: content-box;
+    cursor: pointer;
+}
