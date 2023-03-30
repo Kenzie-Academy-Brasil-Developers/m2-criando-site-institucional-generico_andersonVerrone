@@ -1,33 +1,27 @@
-header {
+.header__container {
     width: 100%;
-    height: var(--header-height);
+    height: 100px;
     background-color: var(--grey-0);
-    color: var(--grey-5);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: var(--header-gap);
-    box-sizing: border-box;
-    border-bottom: var(--header-border);
+    gap: 771px;
     position: fixed;
-    z-index: 999;
 }
 
-.header__img {
-    width: 200px;
-    height: 20.8px;
-}
-
-.header__btn {
-    background-color: transparent;
-    text-align: center;
+.header__container>p {
     color: var(--grey-5);
-    width: var(--header-btn-width);
-    height: var(--header-btn-height);
-    border: var(--header-btn-border);
-    font-size: var(--header-btn-txt-size);
-    font-weight: var(--weight-primary);
-    line-height: var(--header-btn-txt-line-height);
-    box-sizing: content-box;
+    font-size: var(--text1-size);
+}
+
+.header__container>button {
+    width: 241px;
+    height: 60px;
+    border: var(--padding-button-border);
+    background-color: transparent;
+    color: var(--grey-5);
     cursor: pointer;
+    font-weight: var(--bold);
+    font-size: var(--text-btn);
+    line-height: var(--text-btn-height);
 }

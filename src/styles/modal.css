@@ -1,76 +1,88 @@
 .modal {
-    padding: 40px 28px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 31px;
+    width: 584px;
+    height: fit-content;
     position: absolute;
-    border: 2px solid #4C6EF5;
-    top: 0;
-    left: 0;
-    transform:translate(-50%,-50%);
-    background-color: #212529;
-    cursor: grab;
-    width: 504px;
-    height: 397px;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-80%,-50%);
     box-sizing: border-box;
+    border: 2px solid var(--brand-1);
+    padding: 0;
 }
 
-.modal__block {
+#modal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    background-color: var(--grey-1);    
+    padding: 40px 0;
+    
+}
+
+.title__container {
+    width: 448px;
+    height: 32px;
     display: flex;
     align-items: center;
-    width: 100%;
     justify-content: space-between;
 }
 
-.modal__title {
-    font-size: var(--size-text-2);
-    font-weight: var(--weight-primary);
+.title__container>h3 {
+    font-weight: var(--bold);
+    font-size: var(--text2-size);
     color: var(--grey-5);
 }
 
 .close {
-    padding: 0 12px;
+    width: 38px;
+    height: 32px;
     background-color: var(--grey-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 12px;
     border-radius: 4px;
-    font-size: var(--size-text-2);
     color: #868E96;
-    font-weight: var(--weight-primary);
-    line-height: 32px;
+    font-size: var(--text2-size);
+    font-weight: var(--bold);
     cursor: pointer;
 }
 
-.modal__text {
+#modal > p {
     width: 448px;
     font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #CED4DA;
+    font-weight: var(--regular);
+    color: var(--grey-4);
 }
 
-.modal__input {
+#modal > input {
     width: 448px;
-    height: 68px;
+    height: 60px;
+    padding: 14px 20px;
     box-sizing: border-box;
-    padding: 14px 28px;
-    background-color: #191C1F;
-    font-size: 20px;
-    font-weight: 400;
-    color:  #ADB5BD;
-    border: none;
-    outline: none;
+    background-color: var(--grey-0);
+    border: 1px solid #191C1F;
+    color: var(--grey-3);
+    font-size: var(--text2-size);
+    font-weight: var(--bold);
 }
 
-.modal__input:focus {
-    background-color: var(--grey-1);
+#modal > input::placeholder {
+    color: var(--grey-3);
+    font-size: var(--text2-size);
+    font-weight: var(--bold);
 }
 
-.modal__input:valid {
-    background-color: #000000;
+#modal > input:valid {
+    background-color: #000;
 }
 
 .modal__btn {
     width: 448px;
     height: 60px;
-    cursor: pointer;
+    border: 1px solid var(--brand-1);
 }
